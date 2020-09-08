@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <title>Lyrics Finder</title>
+</head>
+<body>
+    <h1>Lyrics Finder !!!</h1>
+    <div class="input">
+    <input id="artist" type="text" placeholder="Artist...">
+    <input id="song" type="text" placeholder="Song Title..." >
+</div>
+<center>
+    <input class="finder" type="submit" value="Find Lyrics" onclick="finder()">
+</center>
+</body>
+<div id="display">
+    <div class="header">
+    <h4 id='first-head' class="a"><span class="artistname"></span></h4>
+    <h4 id="second-head" class="b"><span class="songtitle"></span></h4>
+    </div>
+    <p id="songlyrics"></p>
+</div>
+<script src="app.js">
+    
+</script>
+</html>

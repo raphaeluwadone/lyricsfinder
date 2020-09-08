@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gayathri", sans-serif;
+}
+
+body {
+  background-image: url("./static/wes-hicks-MEL-jJnm7RQ-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+h1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  color: #ebf2fa;
+  font-weight: 900;
+  text-shadow: -5px -5px 0px rgba(0, 0, 0);
+}
+
+#artist {
+  width: 300px;
+  height: 45px;
+  padding: 2px 10px;
+  background-color: #b0daf1;
+  margin-right: 50px;
+  border-radius: 8px;
+  border: solid 1px grey;
+  font-size: 20px;
+  font-style: italic;
+  color: #555;
+  text-transform: capitalize;
+}
+#song {
+  width: 300px;
+  height: 45px;
+  padding: 2px 10px;
+  background-color: #b0daf1;
+  border-radius: 8px;
+  border: solid 1px grey;
+  font-size: 20px;
+  font-style: italic;
+  color: #555;
+  text-transform: capitalize;
+}
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.finder {
+  /* height: 45px; */
+  /* width: 100px; */
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  padding: 0.8rem 1.5rem;
+  background-color: #21d19f;
+  background-color: #44cf6c;
+  cursor: pointer;
+}
+
+.finder:hover {
+  background-color: #21d19f;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#artist:focus {
+  outline-color: grey;
+}
+#song:focus {
+  outline-color: grey;
+}
+
+#display {
+    margin: 20px auto;
+    min-height: 30vh;
+    max-width: 40vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    color: #21d19f;
+   
+}
+
+.artistname {
+  height: ;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.song-tag {
+  height: 2rem;
+  min-width: 10rem;
+  color: black;
+  border: 2px solid white;
+  background-color: #21d19f;
+  border-radius: 999px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.name-tag {
+    height: 2rem;
+  min-width: 10rem;
+  color: black;
+  border: 2px solid white;
+  background-color: #21d19f;
+  border-radius: 999px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.songlyrics {
+ color: #b0daf1;
+ padding: 40px;
+ line-height: .9rem;
+}
